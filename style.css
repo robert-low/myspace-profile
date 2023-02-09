@@ -1,0 +1,111 @@
+.float-container {
+  border: 3px solid #fff;
+  display: flex;
+}
+
+.float-child-left {
+  width: 45%;
+}
+
+.float-child-right {
+  width: 55%;
+}
+
+.float-child-left > ul {
+  list-style-type: none;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.username, h1 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.summary > ul {
+  list-style-type: none;
+}
+
+.user-details{
+  color: black;
+  background-color: none;
+  border: none;
+}
+
+.contact-box {
+  border: 1.5px solid grey;
+  margin-right: 80px;
+}
+
+.contact-box-header {
+  border: 1.5px solid grey;
+  background-color: lightblue;
+}
+
+.contact-options > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.url {
+  border: 1.25px solid lightblue;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 80px;
+}
+
+.music-player {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.user-details {
+  border: 1.5px solid grey;
+  margin-right: 80px;
+}
+
+.user-details-header {
+  border: 1.5px solid grey;
+  background-color: lightblue;
+}
+
+
+.float-child-right > h1 {
+  border: 2px solid black;
+  padding: 40px;
+  text-align: center;
+}
+
+.float-child-right > h3 {
+  border: 2px solid white;
+  border-color: peachpuff;
+  background-color: peachpuff;
+  font-weight: bold;
+  color: darkorange;
+}
+
+.float-child-right > .subheading-about-me {
+  color: darkorange;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+
+
+.user-details > h3 {
+  background-color: lightblue;
+  color: white;
+}
